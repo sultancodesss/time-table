@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+
+}
+table{
+    border: 4px solid rgba(0, 0, 0, 0.507);
+    height: 60vh;
+    width: 50vw;
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+thead{
+    background-color:cyan;
+    
+}
+.head{
+    background-color:antiquewhite;
+}
+.head th{
+    border: 1px solid rgba(0, 0, 0, 0.507);
+}
+.mon{
+    background-color:darkgray;
+}
+.mon td{
+    border: 1px solid rgba(0, 0, 0, 0.507);
+}
+.tue{
+    background-color:antiquewhite;
+}
+.tue td{
+    border: 1px solid rgba(0, 0, 0, 0.507);
+}
+.wed{
+    background-color:darkgray;
+}
+.wed td{
+    border: 1px solid rgba(0, 0, 0, 0.507);
+}
+.wed {
+    background-color:darkgray;
+}
+.wed td{
+    border: 1px solid rgba(0, 0, 0, 0.507);
+}
+.thu{
+    background-color:antiquewhite;
+}
+.thu td{
+    border: 1px solid rgba(0, 0, 0, 0.507);
+}
+.fri{
+    background-color:darkgray;
+}
+.fri td{
+    border: 1px solid rgba(0, 0, 0, 0.507);
+}
+.sat{
+    background-color:antiquewhite;
+}
+.sat td{
+    border: 1px solid rgba(0, 0, 0, 0.507);
+}
+tfoot{
+    background-color:cyan;
+}
+tfoot td{
+    border: 1px solid rgba(0, 0, 0, 0.507);
+}
+tfoot .holi{
+    text-align: center;
+    height: 5vh;
+}
